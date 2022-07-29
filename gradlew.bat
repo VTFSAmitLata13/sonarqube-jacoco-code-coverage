@@ -36,6 +36,8 @@ for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
 
 @rem Find java.exe
+set JAVA_HOME=F:\SonarQube\jdk-11.0.15.1
+set PATH=F:\SonarQube\jdk-11.0.15.1\bin;%PATH%
 if defined JAVA_HOME goto findJavaFromJavaHome
 
 set JAVA_EXE=java.exe
